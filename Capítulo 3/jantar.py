@@ -1,0 +1,28 @@
+pessoas = ['Argentina','Ana','Manoel']
+print("Te convido para jantar comigo, "+ pessoas[0]+".")
+print("Te convido para jantar comigo, "+ pessoas[1]+".")
+print("Te convido para jantar comigo, "+ pessoas[2]+".")
+print("Consegui uma mesa maior e estou convidando também o Altino, a Carol e a Rayane para jantarem conosco.")
+pessoas.insert(0,'Altino')
+pessoas.insert(0,'Carol')
+pessoas.append('Rayane')
+print("Te convido para jantar comigo, "+ pessoas[0]+".")
+print("Te convido para jantar comigo, "+ pessoas[1]+".")
+print("Te convido para jantar comigo, "+ pessoas[2]+".")
+print("Te convido para jantar comigo, "+ pessoas[3]+".")
+print("Te convido para jantar comigo, "+ pessoas[4]+".")
+print("Te convido para jantar comigo, "+ pessoas[5]+".")
+
+print("Infelizmente a mesa de jantar não chegará a tempo e só vou conseguir contar com 2 convidados para o jantar.")
+pessoas_retiradas = pessoas.pop(5)
+print("Sinto muito, porém não consegui espaço para você, "+pessoas_retiradas)
+pessoas_retiradas = pessoas.pop(2)
+print("Sinto muito, porém não consegui espaço para você, "+pessoas_retiradas)
+pessoas_retiradas = pessoas.pop(1)
+print("Sinto muito, porém não consegui espaço para você, "+pessoas_retiradas)
+pessoas_retiradas = pessoas.pop(0)
+print("Sinto muito, porém não consegui espaço para você, "+pessoas_retiradas)
+print(pessoas[0] +" e "+ pessoas[1] + ", vocês ainda estão convidados, conto com a presença de vocês.")
+del pessoas[0]
+del pessoas[0]
+print(pessoas)

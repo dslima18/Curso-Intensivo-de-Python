@@ -1,0 +1,12 @@
+locais = ['Gramado','EUA','Inglaterra','França','Alemanha']
+print(locais)
+print(sorted(locais))
+print(locais)
+print(sorted(locais,reverse=True))
+print(locais)
+locais.reverse()
+print(locais)
+locais.sort()
+print(locais)
+locais.sort(reverse=True)
+print(locais)
