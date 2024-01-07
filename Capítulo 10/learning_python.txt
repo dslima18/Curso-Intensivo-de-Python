@@ -1,0 +1,2 @@
+Em Python podemos ler arquivos.
+Em Python podemos fazer contas.
